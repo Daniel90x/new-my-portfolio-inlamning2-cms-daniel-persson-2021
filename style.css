@@ -1,14 +1,14 @@
 /*
-Theme Name: artyfart
-Text Domain: artyfarty
+Theme Name: newmyportfolio
+Text Domain: newmyportfolio
 */
 
-.red-bg {
-    background: linear-gradient(rgba(87, 28, 28, 0.9), rgba(0,0,0, .9));
+.green-bg {
+    background: darkgreen;
 }
 
 header {
-    height: 10vh;
+    height: 100vh;
 }
 
 .generic {

@@ -2,10 +2,10 @@
 
 get_header();
 
-$title = get_field('title');
-$description = get_field('description');
+$title = get_field('page_title');
+$description = get_field('page_description');
 $link = get_field('page_link');
-$heroImageArray = get_field('featured_image');
+$heroImageArray = get_field('page_image');
 $heroImage = $heroImageArray['sizes']['large'];
 
 
@@ -16,7 +16,7 @@ $aboutImage = $aboutImageArray['sizes']['large'];
 
 ?>
 
-  <section class="red-bg" id="hero">
+  <section class="green-bg" id="hero">
     <div class="container">
       <div class="d-flex flex-row-reverse justify-content-center p-4">
         <div class="row d-flex flex-row-reverse">
