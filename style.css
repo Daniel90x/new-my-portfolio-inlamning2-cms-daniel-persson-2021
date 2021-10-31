@@ -8,7 +8,7 @@ Text Domain: newmyportfolio
 }
 
 header {
-    height: 100vh;
+    height: 10vh;
 }
 
 .generic {
@@ -17,4 +17,5 @@ header {
 
 .footer {
     background: linear-gradient(rgba(87, 28, 28, 0.9), rgba(0,0,0, .9));
+    height: 10vh;
 }
